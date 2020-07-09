@@ -43,4 +43,36 @@
 		<property name ="type" value="Others"/>
 		<property name ="moment" value="2020/07/07 00:00"/>
 	</bean>
+	
+	<!-- Notices -->
+	<bean id="notice01" class ="acme.entities.notices.Notice">
+		<property name="headerPicture" value="https://www.redaccionmedica.com/images/directos/covid-19-hoy-ultimas-noticias-hoy-en-espana-y-en-el-mundo_620x368.jpg"/>
+		<property name="title" value="Las vacunas contra el Covid-19 necesitan miles de participantes"/>
+		<property name="creation" value="2020/07/09 00:00"/>
+		<property name="deadline" value="2020/12/30 00:00"/>
+		<property name="body" value="La Coalición Internacional de Autoridades Reguladoras de Medicamentos (Icmra), ha publicado un informe que advierte de que las futuras vacunas contra el Covid-19 necesitarán de ensayos clínicos en fase III con miles de participantes para demostrar su eficacia."/>
+		<property name="relatedLink1" value="https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov-China/home.htm"/>
+		<property name="relatedLink2" value=""/>
+	</bean>
+	
+	<bean id="notice02" class ="acme.entities.notices.Notice">
+		<property name="headerPicture" value="https://static1-sevilla.abc.es/media/sevilla/2020/06/22/s/fchada-univ-sevilla.jpg-kSxE--620x349@abc.jpg"/>
+		<property name="title" value="La Universidad de Sevilla volverá el próximo curso con los estudiantes rotando entre clases y sesiones on line"/>
+		<property name="creation" value="2020/07/09 00:00"/>
+		<property name="deadline" value="2019/12/30 00:00"/>
+		<property name="body" value="El Consejo de Gobierno de la Universidad de Sevilla ha aprobado el documento con los Criterios Académicos para la adaptación de las titulaciones oficiales de la US a las exigencias sanitarias causadas por la covid-19 durante el curso académico 2020-2021 que pretende una vuelta a clase con los estudiantes rotando. Unos días irán a clase y otros seguirán las sesiones de forma virtual."/>
+		<property name="relatedLink1" value=""/>
+		<property name="relatedLink2" value=""/>
+	</bean>
+	
+	<bean id="notice03" class ="acme.entities.notices.Notice">
+		<property name="headerPicture" value="https://phantom-elmundo.unidadeditorial.es/ace5f356235f7aaa1b68211eb2b230c5/crop/0x46/1807x1250/resize/550/f/webp/assets/multimedia/imagenes/2020/07/08/15942332821640.jpg"/>
+		<property name="title" value="Ámsterdam plantará un árbol por cada bebé nacido en la ciudad"/>
+		<property name="creation" value="2020/07/09 00:00"/>
+		<property name="deadline" value="2020/12/30 00:00"/>
+		<property name="body" value="El Ayuntamiento de Ámsterdam se ha comprometido a plantar un árbol por cada bebé nacido en la capital holandesa como regalo de maternidad para los padres, aunque como alternativa pueden optar por una manta hecha de algodón orgánico y desechos plásticos recogidos del mar"/>
+		<property name="relatedLink1" value="https://www.holland.com/es/turista/destinos/amsterdam.htm"/>
+		<property name="relatedLink2" value="https://mibebeyyo.elmundo.es/bebes"/>
+	</bean>
+	
 </beans>
