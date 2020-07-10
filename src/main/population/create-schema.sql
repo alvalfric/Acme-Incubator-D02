@@ -39,6 +39,21 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `inquirie` (
+       `id` integer not null,
+        `version` integer not null,
+        `body` varchar(255),
+        `contact_email` varchar(255),
+        `creation` datetime(6),
+        `deadline` datetime(6),
+        `max_money_amount` double precision,
+        `max_money_currency` varchar(255),
+        `min_money_amount` double precision,
+        `min_money_currency` varchar(255),
+        `title` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `notice` (
        `id` integer not null,
         `version` integer not null,
@@ -48,6 +63,21 @@
         `header_picture` varchar(255),
         `related_link1` varchar(255),
         `related_link2` varchar(255),
+        `title` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `overture` (
+       `id` integer not null,
+        `version` integer not null,
+        `body` varchar(255),
+        `contact_email` varchar(255),
+        `creation` datetime(6),
+        `deadline` datetime(6),
+        `max_money_amount` double precision,
+        `max_money_currency` varchar(255),
+        `min_money_amount` double precision,
+        `min_money_currency` varchar(255),
         `title` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
@@ -67,6 +97,20 @@
         `author` varchar(255),
         `moment` datetime(6),
         `text` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `technology_record` (
+       `id` integer not null,
+        `version` integer not null,
+        `activity_sector` varchar(255),
+        `description` varchar(255),
+        `email` varchar(255),
+        `inventor_name` varchar(255),
+        `source_type` varchar(255),
+        `stars` integer,
+        `title` varchar(255),
+        `website` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
 

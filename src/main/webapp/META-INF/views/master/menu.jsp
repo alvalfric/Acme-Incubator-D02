@@ -28,6 +28,8 @@
 		    <acme:menu-suboption code="master.menu.anonymous.alferez-bulletin.create" action="/anonymous/alferez-bulletin/create"/>
 		    <acme:menu-separator/>
 		    <acme:menu-suboption code="master.menu.anonymous.notice.list" action="/anonymous/notice/list"/>
+			<acme:menu-suboption code="master.menu.anonymous.technology-record.list" action="/anonymous/technology-record/list"/>
+			<acme:menu-suboption code="master.menu.anonymous.tool-record.list" action="/anonymous/tool-record/list"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
@@ -39,6 +41,8 @@
 
 		<acme:menu-option code="master.menu.authenticated" access="hasRole('Authenticated')">
 		    <acme:menu-suboption code="master.menu.authenticated.notice.list" action="/authenticated/notice/list"/>
+			<acme:menu-suboption code="master.menu.authenticated.technology-record.list" action="/authenticated/technology-record/list"/>
+			<acme:menu-suboption code="master.menu.authenticated.tool-record.list" action="/authenticated/tool-record/list"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.provider" access="hasRole('Provider')">
