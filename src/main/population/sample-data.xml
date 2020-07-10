@@ -85,6 +85,17 @@
 		<property name="maxMoney" value="2000 €"/>
 		<property name="contactEmail" value="inquire@inquirie.com"/>
 	</bean>
+
+	<!-- Overtures -->
+	<bean id="overture01" class ="acme.entities.overtures.Overture">
+		<property name="title" value="Example Overture"/>
+		<property name="creation" value="2020/07/09 00:00"/>
+		<property name="deadline" value="2020/12/30 00:00"/>
+		<property name="body" value="Requesting assist."/>
+		<property name="minMoney" value="2000 €"/>
+		<property name="maxMoney" value="3000 €"/>
+		<property name="contactEmail" value="overture@overture.com"/>
+	</bean>
 	
 	<!-- Technology Records -->
 	<bean id="technology01" class ="acme.entities.technologyRecords.TechnologyRecord">
@@ -120,7 +131,7 @@
 		<property name="stars" value="-2"/>
 	</bean>
 	
-		<!-- Tool Records -->
+	<!-- Tool Records -->
 	<bean id="tool01" class ="acme.entities.toolRecords.ToolRecord">
 		<property name="title" value="Windows 10"/>
 		<property name="activitySector" value="Information Technology"/>
@@ -152,5 +163,18 @@
 		<property name="email" value="av@vaquero.com"/>
 		<property name="sourceType" value="Closed-Source"/>
 		<property name="stars" value="-2"/>
+	</bean>
+
+	<!-- Challenges -->
+	<bean id="challenge01" class ="acme.entities.challenges.Challenge">
+		<property name="title" value="Road to Platinum"/>
+		<property name="deadline" value="2020/12/30 00:00"/>
+		<property name="description" value="Play with me so we improve our skills."/>
+		<property name="rookieGoal" value="We achieve diamond level"/>
+		<property name="rookieReward" value="2000 RP"/>
+		<property name="averageGoal" value="We achieve platinum II level"/>
+		<property name="averageReward" value="1500 RP"/>
+		<property name="expertGoal" value="We achive platinum IV level"/>
+		<property name="expertReward" value="1000 RP"/>
 	</bean>
 </beans>
