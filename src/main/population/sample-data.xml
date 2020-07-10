@@ -119,4 +119,38 @@
 		<property name="sourceType" value="Closed-Source"/>
 		<property name="stars" value="-2"/>
 	</bean>
+	
+		<!-- Tool Records -->
+	<bean id="tool01" class ="acme.entities.toolRecords.ToolRecord">
+		<property name="title" value="Windows 10"/>
+		<property name="activitySector" value="Information Technology"/>
+		<property name="inventorName" value="Bill Gates"/>
+		<property name="description" value="Windows Operating System"/>
+		<property name="website" value="https://www.microsoft.com/es-es/windows"/>
+		<property name="email" value="microsoft@hotmail.com"/>
+		<property name="sourceType" value="Closed-Source"/>
+		<property name="stars" value=""/>
+	</bean>
+	
+	<bean id="tool02" class ="acme.entities.toolRecords.ToolRecord">
+		<property name="title" value="Ubuntu 20.04"/>
+		<property name="activitySector" value="Information Technology"/>
+		<property name="inventorName" value="Richard Stallman"/>
+		<property name="description" value="Ubuntu Operating System"/>
+		<property name="website" value="https://ubuntu.com/"/>
+		<property name="email" value="ubuntu@ubuntu.com"/>
+		<property name="sourceType" value="Open-Source"/>
+		<property name="stars" value="4"/>
+	</bean>
+	
+	<bean id="tool03" class ="acme.entities.toolRecords.ToolRecord">
+		<property name="title" value="Vaquero"/>
+		<property name="activitySector" value="Food"/>
+		<property name="inventorName" value="Alvaro Vaquero"/>
+		<property name="description" value="Food Shop Automatic System"/>
+		<property name="website" value="https://vaquero.com/"/>
+		<property name="email" value="av@vaquero.com"/>
+		<property name="sourceType" value="Closed-Source"/>
+		<property name="stars" value="-2"/>
+	</bean>
 </beans>
