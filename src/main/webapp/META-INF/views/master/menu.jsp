@@ -43,6 +43,9 @@
 		    <acme:menu-suboption code="master.menu.authenticated.notice.list" action="/authenticated/notice/list"/>
 			<acme:menu-suboption code="master.menu.authenticated.technology-record.list" action="/authenticated/technology-record/list"/>
 			<acme:menu-suboption code="master.menu.authenticated.tool-record.list" action="/authenticated/tool-record/list"/>
+			<acme:menu-suboption code="master.menu.authenticated.inquirie.list" action="/authenticated/inquirie/list"/>
+			<acme:menu-suboption code="master.menu.authenticated.overture.list" action="/authenticated/overture/list"/>		
+			<acme:menu-suboption code="master.menu.authenticated.challenge.list" action="/authenticated/challenge/list"/>				
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.provider" access="hasRole('Provider')">
