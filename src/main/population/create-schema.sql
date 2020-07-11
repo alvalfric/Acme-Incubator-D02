@@ -54,6 +54,15 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `customization_parameter` (
+       `id` integer not null,
+        `version` integer not null,
+        `spam_threshold` double precision,
+        `spam_words_english` varchar(255),
+        `spam_words_spanish` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `inquirie` (
        `id` integer not null,
         `version` integer not null,

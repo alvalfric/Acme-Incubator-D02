@@ -37,6 +37,8 @@ master.menu.anonymous.alferez-bulletin.list = AlferezBulletins List
 master.menu.anonymous.alferez-bulletin.create = AlferezBulletin Create
 
 master.menu.anonymous.notice.list = List Notices
+master.menu.anonymous.technology-record.list = List Technology Records
+master.menu.anonymous.tool-record.list = List Tool Records
 
 # master.menu.administrator ###################################################
 
@@ -45,11 +47,17 @@ master.menu.administrator.user-accounts = User accounts
 master.menu.administrator.shutdown = Shut down
 
 master.menu.administrator.notice.list = List Notices
+master.menu.administrator.customization-parameter.show = Show Customization Parameters
 
 # master.menu.authenticated ###################################################
 
 master.menu.authenticated = Authenticated
 master.menu.authenticated.notice.list = List Notices
+master.menu.authenticated.technology-record.list = List Technology Records
+master.menu.authenticated.tool-record.list = List Tool Records
+master.menu.authenticated.inquirie.list = List Inquiries
+master.menu.authenticated.overture.list = List Overtures
+master.menu.authenticated.challenge.list = List Challenges
 
 # master.menu.provider ########################################################
 
