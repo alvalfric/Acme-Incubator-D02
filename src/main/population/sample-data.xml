@@ -177,4 +177,12 @@
 		<property name="expertGoal" value="We achive platinum IV level"/>
 		<property name="expertReward" value="1000 RP"/>
 	</bean>
+	
+	<!-- CustomizationParameters -->
+	<bean id="spamwords" class="acme.entities.customizationParameters.CustomizationParameter">
+		<property name="id" value="1"/>
+		<property name="spamWordsEnglish" value="sex, hard core, viagra, cialis, nigeria, you've won, million dollar"/>
+		<property name="spamWordsSpanish" value="sexo, ducro, viagra, cialis, nigeria, has ganado, millón de dólares"/>
+		<property name="spamThreshold" value="2.50"/>
+	</bean>
 </beans>
