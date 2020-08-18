@@ -8,6 +8,8 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import javax.validation.constraints.NotBlank;
 
+import org.hibernate.validator.constraints.URL;
+
 import acme.framework.entities.DomainEntity;
 import lombok.Getter;
 import lombok.Setter;
@@ -20,23 +22,25 @@ public class Banner extends DomainEntity {
 	private static final long	serialVersionUID	= 1L;
 
 	@NotBlank
+	@URL
 	private String				picture;
 
 	@NotBlank
 	private String				slogan;
 
 	@NotBlank
+	@URL
 	private String				url;
 
 	//Credit Card
 	private String				holderName;
 
-	private int					number;
+	private String				number;
 
 	private String				brand;
 
 	@Temporal(TemporalType.TIMESTAMP)
 	private Date				expirationDate;
 
-	private int					CVV;
+	private Integer				CVV;
 }

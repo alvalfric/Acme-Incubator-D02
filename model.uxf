@@ -517,7 +517,7 @@ Banner
 + slogan: String {NotBlank}
 + url: String {NotBlank}
 + holderName: String 
-+ number: Integer
++ number: String
 + brand: String 
 + expirationDate: Date {Temporal(TIMESPAMP)}
 + CVV: Integer</panel_attributes>
