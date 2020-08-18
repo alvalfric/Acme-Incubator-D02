@@ -48,6 +48,7 @@ master.menu.administrator.shutdown = Parar el sistema
 
 master.menu.administrator.notice.list = Listar Noticias
 master.menu.administrator.customization-parameter.show = Ver Parámetros de Customización
+master.menu.administrator.dashboard.show = Ver Dashboard
 
 # master.menu.authenticated ###################################################
 

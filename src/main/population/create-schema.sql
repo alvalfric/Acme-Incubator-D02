@@ -30,6 +30,20 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `banner` (
+       `id` integer not null,
+        `version` integer not null,
+        `cvv` integer not null,
+        `brand` varchar(255),
+        `expiration_date` datetime(6),
+        `holder_name` varchar(255),
+        `number` integer not null,
+        `picture` varchar(255),
+        `slogan` varchar(255),
+        `url` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `challenge` (
        `id` integer not null,
         `version` integer not null,
@@ -57,6 +71,7 @@
     create table `customization_parameter` (
        `id` integer not null,
         `version` integer not null,
+        `activity_sectors` varchar(255),
         `spam_threshold` double precision,
         `spam_words_english` varchar(255),
         `spam_words_spanish` varchar(255),

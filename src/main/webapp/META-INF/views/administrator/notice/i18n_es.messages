@@ -6,4 +6,5 @@ administrator.notice.form.label.creation = Fecha Creación
 administrator.notice.form.label.body = Cuerpo
 administrator.notice.form.label.relatedLink1 = Link relacionado 1
 administrator.notice.form.label.relatedLink2 = Link relacionado 2
-administrator.notice.form.label.return = Volver
+
+administrator.notice.form.button.return = Volver
