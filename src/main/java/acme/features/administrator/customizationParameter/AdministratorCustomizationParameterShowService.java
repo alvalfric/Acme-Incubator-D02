@@ -30,7 +30,7 @@ public class AdministratorCustomizationParameterShowService implements AbstractS
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "spamWordsEnglish", "spamWordsSpanish", "spamThreshold");
+		request.unbind(entity, model, "spamWordsEnglish", "spamWordsSpanish", "spamThreshold", "activitySectors");
 	}
 
 	@Override
@@ -38,9 +38,6 @@ public class AdministratorCustomizationParameterShowService implements AbstractS
 		assert request != null;
 
 		CustomizationParameter result;
-		//		int id = 1;
-		//
-		//		result = this.repository.findOneById(id);
 
 		result = this.repository.find();
 

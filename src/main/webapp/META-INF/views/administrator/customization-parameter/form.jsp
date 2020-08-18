@@ -7,6 +7,7 @@
 	<acme:form-textarea code="administrator.customization-parameter.form.label.spamWordsEnglish" path="spamWordsEnglish" />
 	<acme:form-textarea code="administrator.customization-parameter.form.label.spamWordsSpanish" path="spamWordsSpanish" />
 	<acme:form-textbox code="administrator.customization-parameter.form.label.spamThreshold" path="spamThreshold" />
+	<acme:form-textarea code="administrator.customization-parameter.form.label.activitySectors" path="activitySectors"/>
 
 	<acme:form-return code="administrator.customization-parameter.form.button.return"/>
 </acme:form>

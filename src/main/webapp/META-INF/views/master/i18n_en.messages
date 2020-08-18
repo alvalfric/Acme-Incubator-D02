@@ -48,6 +48,7 @@ master.menu.administrator.shutdown = Shut down
 
 master.menu.administrator.notice.list = List Notices
 master.menu.administrator.customization-parameter.show = Show Customization Parameters
+master.menu.administrator.dashboard.show = Show Dashboard
 
 # master.menu.authenticated ###################################################
 
