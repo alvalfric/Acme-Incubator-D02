@@ -197,4 +197,22 @@
 		<property name="expertGoal" value="We achive platinum IV level"/>
 		<property name="expertReward" value="1000 RP"/>
 	</bean>
+	
+	<!-- Banners -->
+	<bean id="banner01" class ="acme.entities.banners.Banner">
+		<property name="picture" value="https://media.wired.com/photos/5abece0a9ccf76090d775185/master/pass/hangoutsscreen_2.jpg"/>
+		<property name="slogan" value="Reddit"/>
+		<property name="url" value="https://www.reddit.com/"/>
+		<property name="holderName" value="Reddit CEO"/>
+		<property name="number" value="4111111111111111"/>
+		<property name="brand" value="Visa"/>
+		<property name="expirationDate" value="2024/01/01 00:00"/>
+		<property name="CVV" value="123"/>	
+	</bean>
+	
+	<bean id="banner02" class ="acme.entities.banners.Banner">
+		<property name="picture" value="https://lh3.googleusercontent.com/Pqp5U38hP4c_iJpMHgaCkPG9Qw8DWFVGmqIT4d0QzcQ-S-ihFuMgxxvdy1XgwbxZIbw"/>
+		<property name="slogan" value="Youtube Music"/>
+		<property name="url" value="https://music.youtube.com/"/>
+	</bean>
 </beans>
