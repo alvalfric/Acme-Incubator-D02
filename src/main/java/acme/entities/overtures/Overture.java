@@ -13,6 +13,8 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.PastOrPresent;
 
+import org.hibernate.validator.constraints.Length;
+
 import acme.framework.datatypes.Money;
 import acme.framework.entities.DomainEntity;
 import lombok.Getter;
@@ -26,6 +28,8 @@ public class Overture extends DomainEntity {
 	private static final long	serialVersionUID	= 1L;
 
 	@NotBlank
+	@Column(length = 256)
+	@Length(max = 256)
 	private String				title;
 
 	@NotNull
@@ -39,8 +43,8 @@ public class Overture extends DomainEntity {
 	private Date				deadline;
 
 	@NotBlank
-	@Column(name = "body"/* , length = 512 */)
-	//@Pattern(regexp = ".*(\\n.*){1,}")
+	@Column(length = 4096)
+	@Length(max = 4096)
 	private String				body;
 
 	@NotNull
@@ -53,6 +57,8 @@ public class Overture extends DomainEntity {
 
 	@NotNull
 	@Email
+	@Column(length = 320)
+	@Length(max = 320)
 	private String				contactEmail;
 
 }
